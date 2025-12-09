@@ -146,7 +146,7 @@
           const response = await fetch(invoiceUrl);
           const data = await response.json();
           if (data.invoice) {
-            invoice = data.invoice;
+            //  invoice = data.invoice;
           }
         } catch (e) {
           console.error('Failed to fetch invoice:', e);
